@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void playGame() //hardcoded to go to start match
+
+
+    public void playPVE() //hardcoded to go to start match
     {
         SceneManager.LoadScene(1);
+    }
+
+    public void playPVP() //hardcoded to go to start match
+    {
+        SceneManager.LoadScene(2);
     }
 
     public void quitGame() //exits application

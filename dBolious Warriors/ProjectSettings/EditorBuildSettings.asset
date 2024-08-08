@@ -9,7 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 73cb66e9d173b0e439bf1d7bed6406d8
   - enabled: 1
-    path: Assets/Scenes/BattleField.unity
+    path: Assets/Scenes/PVE.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/PVP.unity
+    guid: 5d4726b9452bd364ebeaa178f06fdf06
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: af097b7c9b8978d40aeab86cf11b7c48, type: 2}

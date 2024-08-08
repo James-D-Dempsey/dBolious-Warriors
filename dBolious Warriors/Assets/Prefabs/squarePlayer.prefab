@@ -159,7 +159,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 247
   health: {fileID: 63960870469386739}
-  audioClip: {fileID: 0}
+  audioClip: {fileID: 8300000, guid: ab297b593498a6e47ba84de770477cbe, type: 3}
   jumpHeight: 15
   runSpeed: 10
   firePoint: {fileID: 8254395852936449850}
@@ -183,7 +183,7 @@ MonoBehaviour:
   rb: {fileID: 3618790193317991412}
   spawnPoint: {x: 0, y: 0, z: 0}
   playerInfo: {fileID: 5449335423241982766}
-  gameOverMenu: {fileID: 0}
+  gameOverMenu: {fileID: 8886988626245843517, guid: e365e22202304c04fb5687fc9a74b7e4, type: 3}
   player: {fileID: 1046968201887403294}
   hitPercent: 0
   canMove: 1

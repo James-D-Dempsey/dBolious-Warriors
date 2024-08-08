@@ -12,6 +12,11 @@ public class playerInfo : MonoBehaviour
 
     void Update()
     {
+        if (hitPercentData == null)
+        {
+            return;
+        }
+
         hitPercentData.text = "Player 1: " + i_hitPercent + "\nStocks: " + i_stockCount;
     }
 }

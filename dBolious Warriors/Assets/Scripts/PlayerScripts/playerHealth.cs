@@ -7,6 +7,7 @@ using UnityEngine.Events;
 
 public class playerHealth : MonoBehaviour
 {
+
     [SerializeField] private Rigidbody2D rb;
     public Vector3 spawnPoint;
     public playerInfo playerInfo;

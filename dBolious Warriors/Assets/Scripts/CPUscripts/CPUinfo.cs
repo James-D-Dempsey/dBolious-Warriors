@@ -12,5 +12,6 @@ public class CPUinfo : MonoBehaviour
     void Update()
     {
         hitPercentData.text = "CPU: " + i_hitPercent + "\nStocks: " + i_stockCount; //changes when difference is found in above variables
+
     }
 }

@@ -126,7 +126,16 @@ public class PlayerMovement : MonoBehaviour
             foreach (Collider2D enemy in hitPlayers)
             {
                 Debug.Log(enemy.name);
-                enemy.GetComponent<CPUhealth>().takeDamage(fAttackDamage, player);
+
+                if (enemy.GetComponent<CPUhealth>() != null)
+                {
+                    enemy.GetComponent<CPUhealth>().takeDamage(fAttackDamage, player);
+                }
+
+                if(enemy.GetComponent<playerHealth>() != null)
+                {
+                    enemy.GetComponent<playerHealth>().takeDamage(fAttackDamage, player);   
+                }
             }
 
             nextAttackTime = Time.time + 1f / fAttackRate;
